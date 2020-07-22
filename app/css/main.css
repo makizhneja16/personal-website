@@ -74,29 +74,60 @@ body{
     background: #aeb1be;
     border-radius: 50%;
 }
-}
+
 
 #services{
 
 }
 .section-header h2{
-
+    text-align: center;
+    padding-top: 41px;
+    font-size: 28px;
+    padding-bottom: 21px;
+    color: #29293a;
 }
+
 .section-header p{
-    
+    padding: 7px;
+    text-align: center;
+    font-size: 15px;
+    line-height: 22px;
+    color: #5e5e63;
+    margin-bottom: 63px;
 }
 .card-wrapper{
 
 }
 .card-wrapper-1{
-
+    margin: 92px 4px;
+    border: 1px solid #efeaea;
+}
+.icon-wrapper{
+ text-align: center;
 }
 .icon-wrapper i{
-
+    font-size: 51px;
+    display: inline-block;
+    color: white;
+    background: #42c63f;
+    padding: 17px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 41px;
+    box-shadow: inset green 0px 0px 1px 3px;
+    
 }
 .card-wrapper-1 h3{
-    
+    text-align: center;
+    padding: 16px;
+    color: #29293a;
 }
 .card-wrapper-1 p{
-    
+    font-size: 17px;
+    text-align: center;
+    line-height: 29px;
+    font-weight: 300;
+    color: #5e5e63;
+    padding: 30px;
+    padding-top: 5px;
 }
