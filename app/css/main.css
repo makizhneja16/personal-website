@@ -99,7 +99,7 @@ body{
 
 }
 .card-wrapper-1{
-    margin: 92px 4px;
+    margin: 60px 4px;
     border: 1px solid #efeaea;
 }
 .icon-wrapper{
@@ -353,6 +353,9 @@ body{
     font-weight: 500;
     color: #29293a;
 }
+.testi-body {
+    padding-bottom: 10px;
+}
 .testi-wrapper{
     
     margin-left: 49px;
@@ -399,6 +402,117 @@ body{
     line-height: 24px;
     padding-right: 18px;
     color: #ffffff;
+}
+
+#contact{
+    background: white;
+}
+.contact-header {
+    padding-top: 40px;
+}
+.contact-header h3{
+    padding: 10px;
+    color: #29293a;
+    font-size: 22px;
+    font-weight: 400;
+}
+.contact-wrapper{
+
+}
+.form-wrapper{
+
+}
+.name-formset{
+
+}
+.name-formset label{
+    font-size: 18px;
+    padding-right: 5px;
+    padding-left: 35px;
+}
+.name-formset input[type='text']{
+    height: 22px;
+    margin-bottom: 15px;
+    margin-top: 13px;
+}
+.email-formset label{
+    font-size: 18px;
+    padding-right: 5px;
+    padding-left: 35px;;
+}
+.email-formset input[type='email']{
+    height: 22px;
+    margin-bottom: 15px;
+    margin-top: 13px;
+}
+.message-formset label{
+    font-size: 18px;
+    padding-right: 5px;
+    padding-left: 35px;
+    position: relative;
+    bottom: 65px;
+}
+.message-formset textarea{
+    height: 125px;
+}
+.submit {
+    text-align: center;
+}
+.submit a{
+    display: inline-block;
+    background: #42c63f;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 11px;
+    text-decoration: none;
+    padding-right: 29px;
+    padding-left: 30px;
+    margin-top: 10px;
+    margin-left: 51px;
+}
+.contact-info{
+   padding: 10px;
+}
+.contact-info h2{
+    color: #29293a;
+    font-size: 22px;
+    font-weight: 400;
+    padding-top: 30px;  
+}
+.info-wrapper{
+
+}
+.info-1 {
+    padding-top: 31px
+}
+.info-1 i{
+    color: #c0c0d0;
+    font-size: 40px;
+}
+.info-1 a{
+    color: black;
+    font-size: 23px;
+    position: relative;
+    bottom: 8px;
+    right: 28px
+}
+.info-2 {
+    padding-top: 31px;
+    padding-bottom: 25px;
+}
+.info-2 i{
+    color: #c0c0d0;
+    font-size: 40px;
+}
+.info-2 a{
+    text-decoration: none;
+    font-size: 20px;
+    position: relative;
+    bottom: 8px;
+    right: 32px;
+    color: black;
 }
 
 #gallary{
