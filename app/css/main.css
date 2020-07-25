@@ -400,3 +400,69 @@ body{
     padding-right: 18px;
     color: #ffffff;
 }
+
+#gallary{
+
+}
+.gallary-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+.gallary-card{
+    flex-basis: 43%;
+    margin: 10px;
+}
+.gallary-card img{
+    max-width: 100%;
+    padding: 9px;
+}
+
+footer{
+    background: #29293a;
+}
+.footer-wrapper{
+    padding: 5px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footercard{
+    flex-basis: 43%;
+    margin: 15px 0px;
+}
+
+.footercard h3{
+    color: #ffffff;
+    font-size: 36px;
+    padding-bottom: 8px;
+} 
+.footercard p{
+    font-size: 17px;
+    color: #aeb1be;
+    line-height: 24px;
+}
+.footer-about {
+    padding: 5px;
+}
+.footer-about h3{
+    color: white;
+    font-weight: 300;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.footer-about p{
+    color: #aeb1be;
+    font-size: 16px;
+    line-height: 26px;
+}
+.footer-bottom {
+    padding: 5px;
+    padding-top: 20px;
+    padding-bottom: 38px;
+}
+.footer-bottom p{
+    padding-top: 3px;
+    color: #aeb1be;
+    font-size: 14px;
+}
