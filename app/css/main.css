@@ -148,15 +148,29 @@ body{
   
 }
 .experience-card-1{
-
+    border-left: solid 1px #fff;
+    padding-left: 14px;
+    position: relative;
 }
 .experience-card-1 img{
     padding-bottom: 11px;
 }
 .experience-card-1 h6{
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     padding-top: 7px;
     font-size: 17px;
+    position: relative;
+    color: #fff;
+}
+.experience-card-1 h6:before {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #fff;
+    left: -19px;
+    top: 9px;
 }
 .experience-card-1 h4{
     padding: 5px;
@@ -175,4 +189,214 @@ body{
     font-weight: 300;
     color: #aeb1be;
     padding-bottom: 30px;
+}
+
+#about{
+    background: #f3f3f9;
+}
+.about-wrapper{
+
+}
+.aboutme h3{
+    color: #29293a;
+    padding-top: 50px;
+    font-size: 21px;
+    font-weight: 400;
+    padding-bottom: 24px;
+}
+
+.aboutme p{
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 24px;
+    color: #5e5e63;
+    padding: 2px;
+}
+.aboutme a{
+    display: inline-block;
+    padding: 31px;
+    text-decoration: none;
+    color: white;
+    background: #43c63f;
+    font-weight: bolder;
+    padding-bottom: 14px;
+    padding-top: 16PX;
+    border-radius: 4px;
+    margin-top: 22px;
+    margin-left: 6px;
+}
+.myskills h3{
+    padding-top: 57px;
+    padding-bottom: 336px;
+}
+.awards h3{
+    font-size: 21px;
+    color: #29293a;
+    font-weight: 400;
+    padding-bottom: 5px;
+}
+.award-wrapper{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 25px;
+}
+.award-card{
+    flex-basis: 43%;
+    text-align: center;
+    margin: 20px 6px;
+    background: white;
+    border-radius: 5px;
+    padding-top: 36px;
+    padding-bottom: 47px;
+}
+.award-card img{
+    max-width: 100%;
+    display: inline-block;
+}
+
+#feature{
+
+}
+.feature-header h2{
+    text-align: center;
+    padding-top: 37px;
+    padding-bottom: 28px;
+    font-size: 26px;
+    color: #29293a;
+    font-weight: 400;
+}
+.feature-wrapper{
+
+}
+.feature-wrapper a{
+
+}
+.feature-1{
+
+}
+.feature-1 img{
+    display: block;
+    max-width: 97%;
+    border-radius: 2%;
+    margin: auto;
+}
+.feature-1 p{
+    padding-top: 10px;
+    padding-left: 4px;
+    font-size: 16px;
+    color: #828590;
+    padding-bottom: 8px;
+}
+.feature-1 h3{
+    padding-top: 3px;
+    padding-left: 4px;
+    font-size: 16px;
+    color: #1a9917;
+    padding-bottom: 27px;
+    font-weight: 500;
+    line-height: 22px;
+}
+.c2a-3 a{
+    display: inline-block;
+    background: #42c63f;
+    color: white;
+    padding: 29px;
+    font-weight: bold;
+    padding-top: 17px;
+    margin-left: 35px;
+    font-size: 16px;
+    padding-bottom: 17px;
+    border-radius: 5px;
+    margin-bottom: 45px;
+}
+
+#consultation{
+    background: #29293a;
+}
+.consultation-wrapper{
+
+}
+.text-1 h3{
+    color: white;
+    text-align: center;
+    line-height: 29px;
+    font-weight: 500;
+    padding: 9px;
+    padding-top: 50px;
+    font-size: 26px;
+}
+.text-2{
+    text-align: center;
+}
+.text-2 a{
+    display: inline-block;
+    background: #42c63f;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 15px;
+    padding: 39px;
+    padding-top: 20px;
+    padding-bottom: 18px;
+    margin-bottom: 50px;
+}
+
+#testimonail{
+    background: #f3f3f9;
+}
+.testi-header h2{
+    text-align: center;
+    padding: 43px;
+    font-size: 27px;
+    font-weight: 500;
+    color: #29293a;
+}
+.testi-wrapper{
+    
+    margin-left: 49px;
+    margin-right: 3px;
+    
+}
+.testicard{
+    background: #29293a;
+    margin: 22px 0px;
+    border-radius: 5px;
+}
+.testicard-wrapper{
+    display: flex;
+}
+.testi-image{
+
+}
+.testi-image img{
+    border-radius: 50%;
+    display: inline-block;
+    max-width: 100px;
+    box-shadow: white 0px 0px 0px 7px;
+    position: relative;
+    right: 33px;
+    top: 36px;
+}
+.testi-text{
+    padding-top: 54px;
+    margin-left: -16px;
+}
+.testi-text h3{
+    color: #42c63f;
+    font-size: 18px;
+    padding-bottom: 6px;
+}
+.testi-text p{
+    color: #828590;
+    font-size: 16px;
+}
+.testi-text-1 p{
+    padding: 54px;
+    padding-top: 23px;
+    font-size: 15px;
+    line-height: 24px;
+    padding-right: 18px;
+    color: #ffffff;
 }
