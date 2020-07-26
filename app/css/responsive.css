@@ -14,14 +14,15 @@
 }
 .hero-wrapper-1{
     display: flex;
-    justify-content: space-between;
-    padding: 11px;
+    padding: 10px;
 }
 .c2a-1 a{
     padding: 18px 34px;
+    margin-right: 20px;
 }
 .c2a-2 a{
     padding: 18px 34px;
+    padding-right: 38px;
 }
 .font a{
     display: block;
@@ -58,6 +59,168 @@
     font-size: 16px;
 }
 
+
+.experience-card-1 h6{
+    font-size: 16px;
+}
+
+.experience-card-1 h4{
+    font-size: 16px;
+}
+.experience-card-1 p{
+    font-size: 16px;
+}
+
+#about{
+    padding-bottom: 10px;
+}
+
+.aboutme h3{
+    font-size: 21px
+}
+
+.aboutme p{
+    font-size: 16px;
+    padding-right: 49px;
+}
+
+
+.awards h3{
+    padding-left: 11px;
+    font-weight: 300;
+    padding-bottom: 12px;
+}
+
+.award-card{
+    margin: 13px 13px;
+}
+
+.feature-wrapper{
+    padding-left: 20px;
+}
+
+.feature-1 h3{
+    
+    font-size: 16px;
+    padding-right: 40px;
+    font-weight: 300;
+}
+
+.c2a-3 {
+    text-align: center;
+}
+.c2a-3 a{
+    margin-left: 0px;
+    padding-right: 25px;
+}
+
+.name-formset input[type='text']{
+    width: 275px;
+}
+
+.email-formset input[type='email']{
+    width: 275px;
+}
+.message-formset textarea{
+    width: 251px;
+}
+
+@media (min-width: 576px){
+    
+header{
+
+}
+.header-wrapper{
+    
+}
+header .logo{
+
+}
+header .logo img{
+   
+}
+
+.navigation{
+}
+.navigation ul{
+    
+}
+.navigation ul li{
+    
+}
+.humburger-menu{
+
+}
+.humburger-menu a{
+    
+}
+#hero{
+  
+}
+.hero-text p{
+    
+}
+
+
+.hero-text h3{
+    font-size: 32px;
+    line-height: 37px;
+}
+
+.hero-wrapper-1{
+
+}
+.c2a-1 a{
+    
+}
+.c2a-2 a{
+    
+}
+.hero-wrapper-2 {
+    
+}
+.font{
+    margin-left: 9px;
+}
+.font a{
+
+}
+.font i{
+    
+}
+
+
+#services{
+
+}
+.section-header h2{
+    
+}
+
+.section-header p{
+    
+}
+.card-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card-wrapper-1{
+    flex-basis: 42%;
+    margin: 64px 0px 30px 31px;
+}
+.icon-wrapper{
+}
+.icon-wrapper i{
+
+    
+}
+.card-wrapper-1 h3{
+    
+}
+.card-wrapper-1 p{
+    
+}
+
 #experience{
     
 }
@@ -74,31 +237,31 @@
    
 }
 .experience-card-1 h6{
-    font-size: 16px;
+   
 }
 .experience-card-1 h6:before {
     
 }
 .experience-card-1 h4{
-    font-size: 16px;
+   
 }
 .experience-card-1 p{
-    font-size: 16px;
+    
 }
 
 #about{
-    padding-bottom: 10px;
+    
 }
 .about-wrapper{
 
 }
 .aboutme h3{
-    font-size: 21px
+    
 }
 
 .aboutme p{
-    font-size: 16px;
-    padding-right: 49px;
+    font-size: 18px;
+    padding-right: 24px;
 }
 .aboutme a{
     
@@ -107,15 +270,15 @@
     
 }
 .awards h3{
-    padding-left: 11px;
-    font-weight: 300;
-    padding-bottom: 12px;
-}
-.award-wrapper{
    
 }
+.award-wrapper{
+    padding: 15px;
+}
 .award-card{
-    margin: 13px 13px;
+    flex-basis: 45%;
+    margin: 20px 12px 23px 9px;
+    
 }
 .award-card img{
     
@@ -140,21 +303,13 @@
    
 }
 .feature-1 p{
-    padding-left: 20px;
+   
 }
 .feature-1 h3{
-    padding-left: 20px;
-    font-size: 16px;
-    padding-right: 40px;
-    font-weight: 300;
-}
-
-.c2a-3 {
-    text-align: center;
+    
 }
 .c2a-3 a{
-    margin-left: 0px;
-    padding-right: 25px;
+   
 }
 
 #consultation{
@@ -234,19 +389,19 @@
     
 }
 .name-formset input[type='text']{
-    padding-right: 70px;
+    
 }
 .email-formset label{
    
 }
 .email-formset input[type='email']{
-    padding-right: 70px;
+    
 }
 .message-formset label{
    
 }
 .message-formset textarea{
-    padding-left: 68px;
+    
 }
 .submit {
    
@@ -327,9 +482,6 @@ footer{
     
     
 }
-}
-@media (min-width: 576px){
-
 }
 @media (min-width: 768px){
     

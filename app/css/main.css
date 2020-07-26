@@ -50,14 +50,16 @@ header .logo img{
     color: #aeb1be;
     padding-bottom: 16px;
     font-weight: bold;
+    padding-left: 5px;
 }
 
 
 .herotext-2 h3{
     font-weight: 300;
-    font-size: 28px;
-    line-height: 25px;
+    font-size: 26px;
+    line-height: 29px;
     color: #29293a;
+    padding-left: 5px;
     padding-bottom: 25px;
 }
 
@@ -302,43 +304,41 @@ header .logo img{
 .feature-wrapper{
 
 }
-.feature-wrapper a{
 
-}
+
 .feature-1{
 
 }
 .feature-1 img{
-    display: block;
-    max-width: 97%;
+    display: inline-block;
+    max-width: 100%;
     border-radius: 2%;
-    margin: auto;
 }
 .feature-1 p{
     padding-top: 10px;
-    padding-left: 4px;
     font-size: 16px;
     color: #828590;
     padding-bottom: 8px;
 }
 .feature-1 h3{
     padding-top: 3px;
-    padding-left: 4px;
     font-size: 16px;
     color: #1a9917;
     padding-bottom: 27px;
     font-weight: 500;
     line-height: 22px;
 }
+.c2a-3{
+    text-align: center;
+}
 .c2a-3 a{
     display: inline-block;
     background: #42c63f;
     color: white;
-    padding: 29px;
+    padding: 27px;
     font-weight: bold;
     padding-top: 17px;
-    margin-left: 35px;
-    font-size: 16px;
+    font-size: 17px;
     padding-bottom: 17px;
     border-radius: 5px;
     margin-bottom: 45px;
@@ -489,7 +489,7 @@ header .logo img{
     height: 125px;
 }
 .submit {
-    text-align: center;
+    
 }
 .submit a{
     display: inline-block;
@@ -503,7 +503,7 @@ header .logo img{
     padding-right: 29px;
     padding-left: 30px;
     margin-top: 10px;
-    margin-left: 51px;
+    margin-left: 117px;
 }
 .contact-info{
    padding: 10px;
