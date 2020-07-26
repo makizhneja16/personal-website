@@ -1,0 +1,342 @@
+
+@media (min-width: 431px){
+    header .logo img{
+    max-width: 131px;
+}
+.herotext-1 p{
+    padding-top: 33px;
+    margin-bottom: 7px;
+    font-size: 15px;
+}
+.herotext-2 h3{
+    font-size: 25px;
+    line-height: 34px;
+}
+.hero-wrapper-1{
+    display: flex;
+    justify-content: space-between;
+    padding: 11px;
+}
+.c2a-1 a{
+    padding: 18px 34px;
+}
+.c2a-2 a{
+    padding: 18px 34px;
+}
+.font a{
+    display: block;
+    margin-top: 8px;
+}
+
+
+
+#services{
+    padding-bottom: 55px;
+}
+.section-header h2{
+    font-size: 26px;
+}
+
+.section-header p{
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.card-wrapper-1{
+    margin: 66px 19px 0px 19px;
+}
+.icon-wrapper i{
+    margin-bottom: -18px;
+    
+}
+.card-wrapper-1 h3{
+    padding-top: unset;
+    font-weight: 500;
+}
+.card-wrapper-1 p{
+    padding-top: unset;
+    font-size: 16px;
+}
+
+#experience{
+    
+}
+.experience-header h2{
+    
+}
+.experience-wapper-1{
+  
+}
+.experience-card-1{
+    
+}
+.experience-card-1 img{
+   
+}
+.experience-card-1 h6{
+    font-size: 16px;
+}
+.experience-card-1 h6:before {
+    
+}
+.experience-card-1 h4{
+    font-size: 16px;
+}
+.experience-card-1 p{
+    font-size: 16px;
+}
+
+#about{
+    padding-bottom: 10px;
+}
+.about-wrapper{
+
+}
+.aboutme h3{
+    font-size: 21px
+}
+
+.aboutme p{
+    font-size: 16px;
+    padding-right: 49px;
+}
+.aboutme a{
+    
+}
+.myskills h3{
+    
+}
+.awards h3{
+    padding-left: 11px;
+    font-weight: 300;
+    padding-bottom: 12px;
+}
+.award-wrapper{
+   
+}
+.award-card{
+    margin: 13px 13px;
+}
+.award-card img{
+    
+}
+
+#feature{
+
+}
+.feature-header h2{
+   
+}
+.feature-wrapper{
+
+}
+.feature-wrapper a{
+
+}
+.feature-1{
+
+}
+.feature-1 img{
+   
+}
+.feature-1 p{
+    padding-left: 20px;
+}
+.feature-1 h3{
+    padding-left: 20px;
+    font-size: 16px;
+    padding-right: 40px;
+    font-weight: 300;
+}
+
+.c2a-3 {
+    text-align: center;
+}
+.c2a-3 a{
+    margin-left: 0px;
+    padding-right: 25px;
+}
+
+#consultation{
+    
+}
+.consultation-wrapper{
+
+}
+.text-1 h3{
+    
+}
+.text-2{
+   
+}
+.text-2 a{
+    
+}
+
+#testimonail{
+   
+}
+.testi-header h2{
+    
+}
+.testi-body {
+   
+}
+.testi-wrapper{
+    
+   
+    
+}
+.testicard{
+    
+}
+.testicard-wrapper{
+    
+}
+.testi-image{
+
+}
+.testi-image img{
+   
+}
+.testi-text{
+   
+}
+.testi-text h3{
+   
+}
+.testi-text p{
+   
+}
+.testi-text-1 p{
+   
+}
+
+#contact{
+    
+}
+.contact-header {
+   
+}
+.contact-header h3{
+  
+}
+.contact-wrapper{
+
+}
+.form-wrapper{
+
+}
+.name-formset{
+
+}
+.name-formset label{
+    
+}
+.name-formset input[type='text']{
+    padding-right: 70px;
+}
+.email-formset label{
+   
+}
+.email-formset input[type='email']{
+    padding-right: 70px;
+}
+.message-formset label{
+   
+}
+.message-formset textarea{
+    padding-left: 68px;
+}
+.submit {
+   
+}
+.submit a{
+    
+}
+.contact-info{
+   
+}
+.contact-info h2{
+    
+}
+.info-wrapper{
+
+}
+.info-1 {
+    
+}
+.info-1 i{
+    
+}
+.info-1 a{
+    
+}
+.info-2 {
+  
+}
+.info-2 i{
+   
+}
+.info-2 a{
+    
+}
+
+#gallary{
+
+}
+.gallary-wrapper{
+    
+}
+.gallary-card{
+    
+}
+.gallary-card img{
+    
+}
+
+footer{
+    
+}
+.footer-wrapper{
+    
+}
+.footercard{
+    
+}
+
+.footercard h3{
+    
+} 
+.footercard p{
+    
+}
+.footer-about {
+    
+}
+.footer-about h3{
+   
+}
+.footer-about p{
+    
+}
+.footer-bottom {
+   
+}
+.footer-bottom p{
+    
+    
+}
+}
+@media (min-width: 576px){
+
+}
+@media (min-width: 768px){
+    
+}
+@media (min-width: 992px){
+    
+}
+@media (min-width: 1200px){
+    
+}
