@@ -508,9 +508,177 @@
     
 
 }
-
-
 @media (min-width: 1200px){
+    
+    .hero-text p{
+       
+    }
+    .hero-text h3{
+       
+    }
+    .c2a-1 a {
+       
+    }
+    .c2a-2 a {
+        
+    }
+    .font i{
+       
+    }
+    
+    
+    
+    .section-header h2{
+        font-size: 43px;
+    }
+    
+    .section-header p{
+        font-size: 19px;
+        padding: 0px 294px;
+
+    }
+    
+    .card-wrapper-1{
+        flex-basis: 22%;
+        margin-right: -3px;
+        margin-left: 31px;
+    }
+    
+    .card-wrapper-1 h3{
+        font-size: 24px;
+    }
+    .card-wrapper-1 p{
+       
+    }
+    .about-wrapper {
+        display: flex;
+    }
+   
+    .aboutme{
+       
+    }
+    .aboutme p{
+       
+
+    }
+    .about-card {
+        flex-basis: 64%;
+    }
+    
+    .award-card{
+        flex-basis: 42%;
+        margin: 11px 13px 15px 11px;
+    }
+     
+    
+    
+    .feature-header h2{
+       
+    }
+    
+    .feature-1{
+        flex-basis: 30%;
+        margin: 1px 19px;
+    }
+    
+    
+   
+    .feature-1 h3{
+        font-size: 22px;
+    }
+   
+    
+    
+    .text-1 h3{
+        margin-top: 28px;
+        font-size: 41px
+    }
+    .consultation-wrapper {
+        display: flex;
+        justify-content: space-around;
+    }
+    .text-1 {
+        flex-basis: 70%;
+    }
+    .text-2 {
+        
+      flex-basis: 35%;
+      text-align: left;
+        
+    }
+    .text-2 a {
+        font-size: 22px;
+         margin-bottom: 69px;
+        margin-top: 69px;
+    }
+    .testi-header h2 {
+        font-size: 44px;
+       margin-top: 10px;
+    }
+
+    .testi-wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    .testicard {
+        flex-basis: 45%;
+        margin: 0px 47px 50px 13px;
+    }
+    .testi-text h3{
+        font-size: 22px;
+        padding-left: 12px;
+    }
+    .testi-text p{
+        padding-left: 12px;
+        font-size: 18px;
+    }
+    .testi-text-1 p {
+        font-size: 17px;
+        padding-left: 64px;
+    }
+    .testi-c2a a {
+        font-size: 22px;
+    }
+    #contact {
+        
+        padding: 20px;
+    }
+    .contact-info{
+       
+    }
+    
+   
+    .gallary {
+       
+    }
+    .gallary-card {
+        
+    }
+    .gallary-card img {
+       
+    }
+    
+    .footer-about h3{
+        font-size: 31px
+    }
+    .footer-wrapper{
+        text-align: center;
+    }
+    .footercard {
+        flex-basis: 25%;
+    }
+    .footer-about p{
+        font-size: 23px;
+    }
+    .footercard p {
+        font-size: 20px;
+    }
+    .footer-bottom p {
+        font-size: 18px;
+        padding-top: 10px;
+       padding-bottom: 32px;
+    }
+    
     
 }
 
