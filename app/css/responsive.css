@@ -382,9 +382,212 @@
     
 }
 }
+
 @media (min-width: 992px){
+ 
+    .navigation{
+        display: inline-block;
+    }
+    .navigation ul {
+        display: flex;
+        list-style: none;
+    }
+    .navigation ul li {
+        margin-left: 60px;
+        margin-top: 18px;
+    }
+    .hero-text p{
+        
+    }
     
+    
+    .hero-text h3{
+        font-size: 41px;
+       margin-right: 464px;
+       line-height: 49px;
+    }
+    .c2a-1 a {
+        padding: 21px 53px;
+        margin-right: 20px;
+        font-size: 21px;
+    }
+    .c2a-2 a {
+        padding: 21px 53px;
+        margin-right: 20px;
+        font-size: 21px;
+    }
+    .font i{
+        font-size: 39px;
+    }
+    
+    .hero-wrapper-1{
+        
+    
+    }
+    
+    .hero-wrapper-2 {
+        
+    }
+    
+    .section-header h2{
+        font-size: 40px;
+    }
+    
+    .section-header p{
+        font-size: 18px;
+      text-align: center;
+     padding: 0px 183px;
+       line-height: 25px;
+
+    }
+    .card-wrapper{
+    
+    }
+    .card-wrapper-1{
+        flex-basis: 29%;
+        margin-right: 10px;
+    }
+    .icon-wrapper{
+    }
+    .icon-wrapper i{
+        
+        
+    }
+    .card-wrapper-1 h3{
+        
+    }
+    .card-wrapper-1 p{
+       
+    }
+    
+    
+    .about-card{
+        
+    }
+    .aboutme{
+        flex-basis: 44%;
+       justify-content: space-between;
+    }
+    .aboutme p{
+        font-size: 15px;
+        line-height: 36px;
+
+    }
+    .awards h3{
+        
+    }
+    .award-wrapper{
+       
+    }
+    .award-card{
+        flex-basis: 22%;
+    }
+     
+    
+    
+    .feature-header h2{
+        font-size: 37px;
+    }
+    
+    .feature-1{
+        flex-basis: 29%;
+        margin: 2px 20px;
+    }
+    
+    
+    .feature-1 p{
+        
+    }
+    .feature-1 h3{
+        font-size: 24px;
+    }
+    .c2a-3 a{
+        
+    
+    }
+    
+    
+    .text-1 h3{
+        font-size: 40px;
+        padding-bottom: 15px;
+    }
+    .text-2{
+       
+    }
+    .text-2 a{
+        
+    }
+    
+    
+    .contactwrap{
+        
+    }
+    
+    .name-formset input[type='text']{
+
+    }
+    .email-formset label{
+       
+    }
+    .email-formset input[type='email']{
+       
+    }
+    .message-formset label{
+       
+    }
+    .message-formset textarea{
+        
+    }
+    
+    .contact-info{
+        flex-basis: 50%;
+    }
+    
+    .contact-info h2{
+        
+    }
+    .info-wrapper{
+        
+    }
+    .footercard{
+       
+    }
+    .gallary {
+        background: #f3f3f9;
+    }
+    .gallary-card {
+        flex-basis: 16%;
+        margin: 3px;
+    }
+    .gallary-card img {
+        max-width: 105%;
+        padding: 10px;
+        height: 146px;
+        width: 171px;
+        padding-left: 1px;
+    }
+    
+    .footer-about h3{
+        text-align: center;
+    }
+    .footer-wrapper{
+        padding-bottom: 30px;
+    }
+    .footer-about p{
+        font-size: 15px;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    
+    .footer-bottom p{
+        
+        
+    }
+
 }
+
+
 @media (min-width: 1200px){
     
 }
+
