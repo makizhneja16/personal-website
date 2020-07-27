@@ -396,11 +396,6 @@
         margin-left: 60px;
         margin-top: 18px;
     }
-    .hero-text p{
-        
-    }
-    
-    
     .hero-text h3{
         font-size: 41px;
        margin-right: 464px;
@@ -420,14 +415,7 @@
         font-size: 39px;
     }
     
-    .hero-wrapper-1{
-        
     
-    }
-    
-    .hero-wrapper-2 {
-        
-    }
     
     .section-header h2{
         font-size: 40px;
@@ -440,30 +428,12 @@
        line-height: 25px;
 
     }
-    .card-wrapper{
     
-    }
     .card-wrapper-1{
         flex-basis: 29%;
         margin-right: 10px;
     }
-    .icon-wrapper{
-    }
-    .icon-wrapper i{
-        
-        
-    }
-    .card-wrapper-1 h3{
-        
-    }
-    .card-wrapper-1 p{
-       
-    }
-    
-    
-    .about-card{
-        
-    }
+   
     .aboutme{
         flex-basis: 44%;
        justify-content: space-between;
@@ -473,12 +443,7 @@
         line-height: 36px;
 
     }
-    .awards h3{
-        
-    }
-    .award-wrapper{
-       
-    }
+    
     .award-card{
         flex-basis: 22%;
     }
@@ -495,63 +460,24 @@
     }
     
     
-    .feature-1 p{
-        
-    }
+   
     .feature-1 h3{
         font-size: 24px;
     }
-    .c2a-3 a{
-        
-    
-    }
+   
     
     
     .text-1 h3{
         font-size: 40px;
         padding-bottom: 15px;
     }
-    .text-2{
-       
-    }
-    .text-2 a{
-        
-    }
-    
-    
-    .contactwrap{
-        
-    }
-    
-    .name-formset input[type='text']{
-
-    }
-    .email-formset label{
-       
-    }
-    .email-formset input[type='email']{
-       
-    }
-    .message-formset label{
-       
-    }
-    .message-formset textarea{
-        
-    }
+   
     
     .contact-info{
         flex-basis: 50%;
     }
     
-    .contact-info h2{
-        
-    }
-    .info-wrapper{
-        
-    }
-    .footercard{
-       
-    }
+   
     .gallary {
         background: #f3f3f9;
     }
@@ -579,10 +505,7 @@
         padding-right: 100px;
     }
     
-    .footer-bottom p{
-        
-        
-    }
+    
 
 }
 
