@@ -436,6 +436,22 @@ header .logo img{
     padding-right: 18px;
     color: #ffffff;
 }
+.testi-c2a{
+    text-align: center;
+}
+.testi-c2a a{
+    display: inline-block;
+    background: #42c63f;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 15px;
+    padding: 39px;
+    padding-top: 20px;
+    padding-bottom: 18px;
+    margin-bottom: 50px;
+} 
 
 #contact{
     background: white;

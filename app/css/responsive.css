@@ -127,78 +127,12 @@
 
 @media (min-width: 576px){
     
-header{
-
-}
-.header-wrapper{
-    
-}
-header .logo{
-
-}
-header .logo img{
-   
-}
-
-.navigation{
-}
-.navigation ul{
-    
-}
-.navigation ul li{
-    
-}
-.humburger-menu{
-
-}
-.humburger-menu a{
-    
-}
-#hero{
-  
-}
-.hero-text p{
-    
-}
-
-
 .hero-text h3{
     font-size: 32px;
     line-height: 37px;
 }
-
-.hero-wrapper-1{
-
-}
-.c2a-1 a{
-    
-}
-.c2a-2 a{
-    
-}
-.hero-wrapper-2 {
-    
-}
 .font{
     margin-left: 9px;
-}
-.font a{
-
-}
-.font i{
-    
-}
-
-
-#services{
-
-}
-.section-header h2{
-    
-}
-
-.section-header p{
-    
 }
 .card-wrapper{
     display: flex;
@@ -208,69 +142,9 @@ header .logo img{
     flex-basis: 42%;
     margin: 64px 0px 30px 31px;
 }
-.icon-wrapper{
-}
-.icon-wrapper i{
-
-    
-}
-.card-wrapper-1 h3{
-    
-}
-.card-wrapper-1 p{
-    
-}
-
-#experience{
-    
-}
-.experience-header h2{
-    
-}
-.experience-wapper-1{
-  
-}
-.experience-card-1{
-    
-}
-.experience-card-1 img{
-   
-}
-.experience-card-1 h6{
-   
-}
-.experience-card-1 h6:before {
-    
-}
-.experience-card-1 h4{
-   
-}
-.experience-card-1 p{
-    
-}
-
-#about{
-    
-}
-.about-wrapper{
-
-}
-.aboutme h3{
-    
-}
-
 .aboutme p{
     font-size: 18px;
     padding-right: 24px;
-}
-.aboutme a{
-    
-}
-.myskills h3{
-    
-}
-.awards h3{
-   
 }
 .award-wrapper{
     padding: 15px;
@@ -278,213 +152,235 @@ header .logo img{
 .award-card{
     flex-basis: 45%;
     margin: 20px 12px 23px 9px;
-    
-}
-.award-card img{
-    
 }
 
-#feature{
-
-}
-.feature-header h2{
-   
-}
 .feature-wrapper{
-
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
-.feature-wrapper a{
 
-}
 .feature-1{
-
+    flex-basis: 44%;
+    margin: 5px 27px 7px 4px;
 }
 .feature-1 img{
-   
+    max-width: 102%;
 }
 .feature-1 p{
    
 }
 .feature-1 h3{
-    
-}
-.c2a-3 a{
-   
+    padding-right: 15px;
 }
 
-#consultation{
-    
-}
-.consultation-wrapper{
-
-}
 .text-1 h3{
-    
+    font-size: 27px;
 }
 .text-2{
    
 }
 .text-2 a{
-    
-}
-
-#testimonail{
-   
-}
-.testi-header h2{
-    
-}
-.testi-body {
-   
-}
-.testi-wrapper{
-    
-   
-    
-}
-.testicard{
-    
-}
-.testicard-wrapper{
-    
-}
-.testi-image{
-
-}
-.testi-image img{
-   
-}
-.testi-text{
-   
-}
-.testi-text h3{
-   
-}
-.testi-text p{
-   
-}
-.testi-text-1 p{
-   
-}
-
-#contact{
-    
-}
-.contact-header {
-   
-}
-.contact-header h3{
-  
-}
-.contact-wrapper{
-
-}
-.form-wrapper{
-
-}
-.name-formset{
-
-}
-.name-formset label{
-    
+    font-size: 17px;
 }
 .name-formset input[type='text']{
-    
+    width: 402px;
 }
 .email-formset label{
    
 }
 .email-formset input[type='email']{
-    
+    width: 402px;
 }
 .message-formset label{
    
 }
 .message-formset textarea{
-    
-}
-.submit {
-   
+    width: 376px;
 }
 .submit a{
-    
-}
-.contact-info{
-   
-}
-.contact-info h2{
-    
+    padding: 18px;
+    padding-right: 21px;
 }
 .info-wrapper{
-
-}
-.info-1 {
-    
-}
-.info-1 i{
-    
-}
-.info-1 a{
-    
-}
-.info-2 {
-  
-}
-.info-2 i{
-   
+    display: flex;
+    justify-content: space-between;
 }
 .info-2 a{
-    
+    font-size: 22px
 }
-
-#gallary{
-
-}
-.gallary-wrapper{
-    
-}
-.gallary-card{
-    
-}
-.gallary-card img{
-    
-}
-
-footer{
-    
-}
-.footer-wrapper{
-    
-}
-.footercard{
-    
-}
-
 .footercard h3{
-    
+    font-size: 35px;
 } 
-.footercard p{
-    
-}
-.footer-about {
-    
-}
-.footer-about h3{
-   
-}
-.footer-about p{
-    
-}
-.footer-bottom {
-   
-}
-.footer-bottom p{
-    
-    
+
 }
 }
+
 @media (min-width: 768px){
     
+
+.hero-text p{
+    padding-left: 25px;
+    font-size: 18px;
+}
+
+
+.hero-text h3{
+    padding-left: 25px;
+    margin-right: 295px;
+    font-size: 34px;
+    line-height: 41px;
+}
+
+.hero-wrapper-1{
+    padding: 47px;
+    padding-left: 21px;
+    padding-top: 23px;
+
+}
+
+.hero-wrapper-2 {
+    padding-left: 22px;
+    padding-bottom: 59px;
+}
+
+.section-header h2{
+    font-size: 34px;
+}
+
+.section-header p{
+    padding: 0px 84px 2px 100px;
+    font-size: 18px;
+}
+.card-wrapper{
+
+}
+.card-wrapper-1{
+    flex-basis: 45%;
+    margin: 64px 6px 23px 24px;
+}
+.icon-wrapper{
+}
+.icon-wrapper i{
+    font-size: 70px;
+    
+}
+.card-wrapper-1 h3{
+    font-size: 20px;
+}
+.card-wrapper-1 p{
+    font-size: 17px;
+}
+
+
+.about-card{
+    display: flex;
+    padding: 25px
+}
+.aboutme{
+    flex-basis: 50%;
+}
+
+.awards h3{
+    padding-left: 26px;
+    font-size: 23px;
+}
+.award-wrapper{
+   
+}
+.award-card{
+    flex-basis: 21%;
+    margin: 9px 6px 30px 15px;
+}
+ 
+
+
+.feature-header h2{
+    font-size: 32px;
+}
+
+.feature-1{
+    flex-basis: 45%;
+    margin: 5px 27px 7px 9px;
+}
+
+
+.feature-1 p{
+    font-size: 17px;
+}
+.feature-1 h3{
+    font-size: 19px;
+}
+.c2a-3 a{
+    padding-left: 32px;
+    padding-right: 34px;
+    font-size: 19px;
+
+}
+
+
+.text-1 h3{
+    font-size: 33px
+}
+.text-2{
+   
+}
+.text-2 a{
+    font-size: 18px;
+}
+
+
+.contactwrap{
+    display: flex;
+    justify-content: space-between;
+}
+
+.name-formset input[type='text']{
+    width: 303px;
+}
+.email-formset label{
+   
+}
+.email-formset input[type='email']{
+    width: 303px;
+}
+.message-formset label{
+   
+}
+.message-formset textarea{
+    width: 281px;
+}
+
+.contact-info{
+    padding-top: unset;
+    position: relative;
+    bottom: 30px;
+}
+
+.contact-info h2{
+    padding-top: unset;
+}
+.info-wrapper{
+    display: inline-block;
+}
+.footercard{
+    flex-basis: 23%;
+}
+
+
+.footer-about h3{
+    text-align: center;
+}
+.footer-about p{
+    text-align: center;
+    font-size: 18px;
+}
+
+.footer-bottom p{
+    font-size: 13px;
+    display: inline-block;
+    
+}
 }
 @media (min-width: 992px){
     
