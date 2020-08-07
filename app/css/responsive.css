@@ -51,7 +51,7 @@
 }
 
 .card-wrapper-1,.card-wrapper-1-active{
-    margin: 66px 19px 0px 19px;
+    margin: 66px 19px 0px 22px;
 }
 .icon-wrapper i{
     margin-bottom: -18px;
@@ -121,15 +121,11 @@
     padding-right: 25px;
 }
 
-.name-formset input[type='text']{
-    width: 275px;
-}
-
-.email-formset input[type='email']{
-    width: 275px;
+.name-formset input[type='text'],.email-formset input[type='email']{
+    width: 411px;
 }
 .message-formset textarea{
-    width: 251px;
+    width: 409px;
 }
 
 @media (min-width: 576px){
@@ -147,13 +143,14 @@
 }
 .card-wrapper-1,.card-wrapper-1-active{
     flex-basis: 42%;
-    margin: 64px 0px 30px 31px;
+    margin: 64px 0px 30px 32px;
 }
 .card-wrapper-1 p, .card-wrapper-1-active p{
     margin: 0px 20px 33px 20px;
 }
 .section-header p{
     margin: 0px 30px 0px 29px;
+    font-size: 16px;
 }
 .aboutme p{
     font-size: 18px;
@@ -200,20 +197,26 @@
  margin: 20px 0px;
 
 }
+.contact-header h3{
+    padding-left: 16px;
+}
+.contactwrap {
+    padding: 0px 24px;
+}
 .name-formset input[type='text']{
-    width: 402px;
+    width: 514px;
 }
 .email-formset label{
    
 }
 .email-formset input[type='email']{
-    width: 402px;
+    width: 514px;
 }
 .message-formset label{
    
 }
 .message-formset textarea{
-    width: 376px;
+    width: 514px;
 }
 .submit a{
     padding: 18px;
@@ -326,7 +329,7 @@
 
 .feature-1{
     flex-basis: 45%;
-    margin: 5px 27px 7px 9px;
+    margin: 5px 30px 7px 3px;
 }
 
 
@@ -361,20 +364,23 @@
     justify-content: space-between;
 }
 
+.contact-wrapper {
+    flex-basis: 57%;
+}
 .name-formset input[type='text']{
-    width: 303px;
+    width: 360px;
 }
 .email-formset label{
    
 }
 .email-formset input[type='email']{
-    width: 303px;
+    width: 360px;
 }
 .message-formset label{
    
 }
 .message-formset textarea{
-    width: 281px;
+    width: 360px;
 }
 
 .contact-info{
@@ -388,6 +394,11 @@
 }
 .info-wrapper{
     display: inline-block;
+}
+.submit a {
+    padding: 17px 30px;
+    margin-bottom: 60px;
+}
 }
 .footercard{
     flex-basis: 23%;
@@ -410,7 +421,7 @@
     display: inline-block;
     
 }
-}
+
 
 @media (min-width: 992px){
     
@@ -482,14 +493,15 @@
     
     .card-wrapper-1{
         flex-basis: 29%;
-        margin-right: 10px;
+        margin-right: 4px;
+        margin-left: 30px;
     }
    
     .card-wrapper-1-active{
-        flex-basis: 29%;
         margin: auto;
-        margin-top: 70px;
-        margin-bottom: 40px;
+        flex-basis: 29%;
+        margin-top: 80px;
+        margin-bottom: 22px;
     }
     .aboutme{
         flex-basis: 44%;
@@ -502,7 +514,8 @@
     }
     
     .award-card{
-        flex-basis: 22%;
+        flex-basis: 23%;
+         margin: 0px;
     }
      
     
@@ -513,13 +526,14 @@
     
     .feature-1{
         flex-basis: 29%;
-        margin: 2px 20px;
+        margin-left: 7px;
+        margin-right: 34px;
     }
     
     
    
     .feature-1 h3{
-        font-size: 24px;
+        font-size: 23px;
     }
    
     
@@ -531,7 +545,19 @@
    
     
     .contact-info{
-        flex-basis: 50%;
+        flex-basis: 43%;
+    }
+    .name-formset input[type='text'] {
+        width: 415px;
+    }
+    .email-formset input[type='email'] {
+        width: 415px;
+    }
+    .message-formset textarea {
+        width: 414px;
+    }
+    .submit a {
+        padding: 19px 47px;
     }
     
    
@@ -608,8 +634,8 @@
     
     .card-wrapper-1,.card-wrapper-1-active{
         flex-basis: 22%;
-        margin-right: -3px;
-        margin-left: 31px;
+        margin-top: 89px;
+        margin-left: 27px;
     }
     
     .card-wrapper-1 h3,.card-wrapper-1-active h3{
@@ -637,7 +663,9 @@
         flex-basis: 42%;
         margin: 11px 13px 15px 11px;
     }
-     
+    .awards h3 {
+        padding-top: 71px;
+    }
     
     
     .feature-header h2{
@@ -715,6 +743,29 @@
     }
     .contact-info{
        
+    }
+    .info-1 i,.info-2 i {
+        color: #c0c0d0;
+        font-size: 90px;
+    }
+    .info-1 a {
+        
+        font-size: 45px;
+        position: relative;
+        bottom: 26px;
+        right: 68px;
+        text-decoration: none;
+    }
+    .info-2 a {
+        text-decoration: none;
+        font-size: 32px;
+        position: relative;
+        bottom: 25px;
+        right: 32px;
+        color: black;
+    }
+    .hero-wrapper-2 {
+        padding-left: 0px;
     }
     
    

@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
     font-family: 'Work Sans', sans-serif;
 }
@@ -6,6 +11,7 @@ body{
     padding-left: 10px;
     padding-right: 10px;
 }
+
 header{
     position: fixed;
     width: 100%;
@@ -17,9 +23,6 @@ header{
     display: flex;
     justify-content: space-between;
 }
-header .logo{
-
-}
 header .logo img{
     display: block;
     max-width: 160px;
@@ -27,23 +30,14 @@ header .logo img{
     margin-bottom: 15px;
     padding-top: 5px;
 }
-
 .navigation{
     display: none;
-}
-.navigation ul{
-    
-}
-.navigation ul li{
-    
-}
-.humburger-menu{
-
 }
 .humburger-menu a{
     display: inline-block;
     padding-top: 15px;
 }
+
 #hero{
   background-image: url(../image/bg-image.jpg);
   background-position: center;
@@ -63,8 +57,6 @@ header .logo img{
     font-size: 13px;
     letter-spacing: 1px;
 }
-
-
 .herotext-2 h3{
     font-weight: 300;
     font-size: 26px;
@@ -72,11 +64,6 @@ header .logo img{
     color: #29293a;
     padding-left: 5px;
     padding-bottom: 25px;
-}
-}
-
-.hero-wrapper-1{
-
 }
 .c2a-1 a{
     display: inline-block;
@@ -111,9 +98,6 @@ header .logo img{
 .font{
     margin: 14px 10px 0px 5px;
 }
-.font a{
-
-}
 .font i{
     padding: 10px;
     display: block;
@@ -135,8 +119,6 @@ header .logo img{
     color: #29293a;
     font-weight: 400;
 }
-
-
 .section-header p{
     padding: 7px;
     text-align: center;
@@ -144,9 +126,6 @@ header .logo img{
     line-height: 24px;
     color: #5e5e63;
     margin-bottom: 63px;
-}
-.card-wrapper{
-
 }
 .card-wrapper-1,.card-wrapper-1-active {
     margin: 0px 5px 90px 5px;
@@ -177,7 +156,7 @@ header .logo img{
     font-weight: 500;
 }
 .card-wrapper-1 p,.card-wrapper-1-active p{
-    font-size: 16px;
+    font-size: 15px;
     text-align: center;
     line-height: 26px;
     font-weight: 300;
@@ -197,9 +176,6 @@ header .logo img{
     margin-bottom: 51px;
     font-weight: 400;
     line-height: 33px;
-}
-.experience-wapper-1{
-  
 }
 .experience-card-1{
     border-left: solid 1px #fff;
@@ -248,9 +224,6 @@ header .logo img{
 #about{
     background: #f3f3f9;
 }
-.about-wrapper{
-
-}
 .aboutme h3{
     color: #29293a;
     padding-top: 50px;
@@ -258,7 +231,6 @@ header .logo img{
     font-weight: 400;
     padding-bottom: 24px;
 }
-
 .aboutme p{
     font-weight: 100;
     font-size: 16px;
@@ -320,14 +292,6 @@ header .logo img{
     color: #29293a;
     font-weight: 400;
 }
-.feature-wrapper{
-
-}
-
-
-.feature-1{
-
-}
 .feature-1 img{
     display: inline-block;
     max-width: 100%;
@@ -365,9 +329,6 @@ header .logo img{
 
 #consultation{
     background: #29293a;
-}
-.consultation-wrapper{
-
 }
 .text-1 h3{
     color: white;
@@ -409,7 +370,6 @@ header .logo img{
     padding-bottom: 10px;
 }
 .testi-wrapper{
-    
     margin-left: 49px;
     margin-right: 3px;
     
@@ -421,9 +381,6 @@ header .logo img{
 }
 .testicard-wrapper{
     display: flex;
-}
-.testi-image{
-
 }
 .testi-image img{
     border-radius: 50%;
@@ -473,7 +430,7 @@ header .logo img{
 } 
 
 #contact{
-    background: white;
+    background: aliceblue;
 }
 .contact-header {
     padding-top: 40px;
@@ -484,47 +441,38 @@ header .logo img{
     font-size: 22px;
     font-weight: 400;
 }
-.contact-wrapper{
-
-}
-.form-wrapper{
-
-}
-.name-formset{
-
-}
-.name-formset label{
-    font-size: 18px;
-    padding-right: 5px;
-    padding-left: 35px;
-}
 .name-formset input[type='text']{
-    height: 22px;
-    margin-bottom: 15px;
+    height: 50px;
     margin-top: 13px;
-}
-.email-formset label{
-    font-size: 18px;
-    padding-right: 6px;
-    padding-left: 35px;;
+    width: 298px;
+    font-size: 17px;
+    padding-left: 10px;
+    color: #b9b3b3;
+    border: 3px solid white;
+    border-radius: 5px;
+   
 }
 .email-formset input[type='email']{
-    height: 22px;
+    height: 50px;
     margin-bottom: 15px;
     margin-top: 13px;
-}
-.message-formset label{
-    font-size: 18px;
-    padding-right: 5px;
-    padding-left: 35px;
-    position: relative;
-    bottom: 65px;
+    width: 298px;
+    font-size: 17px;
+    padding-left: 10px;
+    color: #b9b3b3;
+    border: 3px solid white;
+    border-radius: 5px;
+   
 }
 .message-formset textarea{
-    height: 125px;
-}
-.submit {
-    
+    height: 150px;
+    width: 298px;
+    padding-left: 10px;
+    padding-top: 7px;
+    font-size: 18px;
+    color: #b9b3b3;
+    border: 3px solid white;
+    border-radius: 5px;
 }
 .submit a{
     display: inline-block;
@@ -532,25 +480,18 @@ header .logo img{
     color: white;
     font-weight: bold;
     border-radius: 5px;
-    font-size: 16px;
-    padding: 11px;
+    font-size: 18px;
+    padding: 18px;
     text-decoration: none;
     padding-right: 29px;
     padding-left: 30px;
     margin-top: 10px;
-    margin-left: 117px;
-}
-.contact-info{
-   padding: 10px;
 }
 .contact-info h2{
     color: #29293a;
     font-size: 22px;
     font-weight: 400;
     padding-top: 30px;  
-}
-.info-wrapper{
-
 }
 .info-1 {
     padding-top: 31px
@@ -614,7 +555,6 @@ footer{
     flex-basis: 43%;
     margin: 15px 0px;
 }
-
 .footercard h3{
     color: #ffffff;
     font-size: 36px;
