@@ -5,6 +5,7 @@
 }
 body{
     font-family: 'Work Sans', sans-serif;
+    padding-top: 52px;
 }
 .container{
     margin: auto;
@@ -588,4 +589,14 @@ footer{
     padding-top: 3px;
     color: #aeb1be;
     font-size: 14px;
+}
+.scrollup{
+    background: red;
+    padding: 10px;
+    position: fixed;
+    bottom: 50px;
+    right: 16px;
+    text-decoration: none;
+    border-radius: 20%;
+    color: white;
 }
